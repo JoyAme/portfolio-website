@@ -69,10 +69,13 @@ ul{
 }
 .combo{
     margin-left:10rem;
-    margin-top: 15rem;
+    margin-top: 8rem;
+}
+.description{
+    font-size: 30px;
 }
 .name{
-    font-size: 60px;
+    font-size: 40px;
 }
 .frontend{
     margin-bottom: 20px;
@@ -89,23 +92,23 @@ ul{
     background-color: rgb(201, 54, 78);
     color: white;
     border:none;
-    width:160px;
+    width:140px;
     border-radius: 8px;
-    padding: 17px;
+    padding: 13px;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 20px;
 }
 .btn-1{
     /* background-color: rgb(201, 54, 78); */
     color: white;
     border: 3px solid rgb(201, 54, 78) ;
-    width:160px;
+    width:140px;
     border-radius: 8px;
-    padding: 17px;
-    font-size: 25px;
+    padding: 13px;
+    font-size: 20px;
 }
 .links{
-    margin-top: 5rem;
+    margin-top: 3rem;
     display: flex;
     gap:50px;
     align-items: center;
@@ -172,7 +175,7 @@ height: 350px;
     
 }
 .journey{
-    padding-top: 7rem;
+    padding-top: 14rem;
    padding-bottom: 50px;
     text-align: center;
     font-size: 50px;
@@ -219,7 +222,7 @@ height: 350px;
 }
 .lives{
     display: flex;
-    padding: 10px;
+    padding: 6px;
     margin-top: 30px;
     cursor: pointer;
     margin-left: 20px;
@@ -230,6 +233,7 @@ height: 350px;
 .title{
     text-align: right;
     margin-right: 20px;
+    font:20px;
 }
 .project{
     background-color: black;
@@ -260,13 +264,13 @@ height: 350px;
 .combo1{
     color: black;
     background-color:rgb(201, 54, 78); ;
-    height:400px;
+    height:300px;
     border-radius: 8px;
     
 }
 /* FOURTH */
 .img{
-    width:400px;
+    width:250px;
     border-radius: 10px;
     margin-bottom: 10px;
     cursor: pointer;
@@ -288,8 +292,8 @@ height: 350px;
     margin-bottom: 150px;
 }
 .inputt{
-    width:400px;
-    padding: 10px;
+    width:300px;
+    padding: 8px;
     outline: none;
     border-radius: 8px;
     height:50px;
@@ -304,7 +308,7 @@ height: 350px;
     text-align: center;
     padding-top: 7rem;
     padding-bottom: 20px;
-    font-size: 60px;
+    font-size: 40px;
     margin-bottom: 18px;
 }
 .subbtn{
@@ -312,7 +316,7 @@ height: 350px;
     margin-bottom: 70px;
 }
 .text{
-    width:830px;
+    width:300px;
     height:180px;
     outline: none;
     border-radius: 8px;
@@ -356,7 +360,16 @@ height: 350px;
         margin-left: 1rem;
     }
     .name{
-        font-size: 50px;
+        font-size: 30px;
+    }
+    .frontend{
+        font-size: 20px;
+    }
+    .description{
+        font-size: 16px;
+    }
+    .iconss{
+        font-size: 20px;
     }
     .links,
     .buttons{
@@ -368,12 +381,12 @@ height: 350px;
         text-align: center; */
     }
     .joyy{
-        width: 200px;
+        width: 150px;
     }
     .circular{
-        margin-left:6rem;
-        height: 250px;
-    width: 260px;
+        margin-left:4rem;
+        height: 230px;
+    width: 240px;
     
     }
     .lorem{
@@ -381,8 +394,9 @@ height: 350px;
         font-size: 10px;
     }
     .btn,.btn-1{
-      
-        padding: 14px;
+        width:100px;
+        font-size: 14px;
+        padding: 12px;
       
     }
     .skills-line{
@@ -426,8 +440,8 @@ height: 350px;
        
     }
     .inputt{
-        width:170px;
-        font-size: 16px;
+        width:100px;
+        font-size: 12px;
         height:40px;
         color: white;
     }
@@ -440,8 +454,8 @@ height: 350px;
         text-align: center;
     } */
     .text{
-        width:355px;
-        height:180px;
+        width:105px;
+        height:170px;
         color: white;
         font-size: 16px;
     }
