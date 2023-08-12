@@ -72,7 +72,8 @@ ul{
     margin-top: 8rem;
 }
 .description{
-    font-size: 30px;
+    font-size: 25px;
+    width:80%;
 }
 .name{
     font-size: 40px;
@@ -382,11 +383,12 @@ height: 350px;
     }
     .joyy{
         width: 150px;
+        margin-top: 2rem;
     }
     .circular{
         margin-left:4rem;
         height: 230px;
-    width: 240px;
+    width: 220px;
     
     }
     .lorem{
