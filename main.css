@@ -72,7 +72,7 @@ ul{
     margin-top: 8rem;
 }
 .description{
-    font-size: 25px;
+    font-size: 20px;
     width:50rem;
 }
 .name{
@@ -87,7 +87,7 @@ ul{
     display: flex;
     gap:40px;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 .btn{
     background-color: rgb(201, 54, 78);
@@ -140,7 +140,7 @@ ul{
 .second{
     color:white;
     background-color: black;
-    height: 50vh;
+    height: 60vh;
        
 }
 /* .circ{
@@ -371,7 +371,7 @@ height: 350px;
         font-size: 30px;
     }
     .description{
-        font-size: 20px;
+        font-size: 15px;
         width:25rem;
     }
     .iconss{
@@ -384,9 +384,9 @@ height: 350px;
        /* margin-left: 2rem; */
     }
     .second{
-        background-color: black;
-        height: 40vh;
-        text-align: center;
+        
+        height: 50vh;
+        
     }
     .joyy{
         width: 150px;
@@ -454,7 +454,7 @@ height: 350px;
        
     }
     .inputt{
-        width:12rem;
+        width: 9rem;
         font-size: 12px;
         height:40px;
         color: white;
@@ -468,7 +468,7 @@ height: 350px;
         text-align: center;
     } */
     .text{
-        width:25rem;
+        width:20rem;
         height:170px;
         color: white;
         font-size: 16px;
