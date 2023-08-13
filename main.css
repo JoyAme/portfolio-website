@@ -322,7 +322,7 @@ height: 350px;
 }
 .subbtn{
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 .text{
     width:53rem;
@@ -350,19 +350,35 @@ height: 350px;
 
 @media screen and (max-width:480px){
     .headerr{
-       display: grid;
-       justify-content: center;
+       /* display: grid;
+       justify-content: center; */
+      
     }
     .toggle{
         cursor: pointer;
         display:block;
     }
-    li{
+    ul{
+        position: absolute;
+        display: block;
         display:none;
+        left:0px;
+        background-color: black;
+        width:100%;
+        margin-top: 20px;
+    }
+    li{
+        padding:10px;
+        
+       
+    }
+    li:hover{
+        color: white;
     }
     .head{
+        position: relative;
         background-color: black;
-        height: 6vh;
+        /* height: 6vh; */
     }
     .combo{
         /* display: grid;
@@ -379,7 +395,7 @@ height: 350px;
     }
     .description{
         font-size: 12px;
-        width:25rem;
+        width:20rem;
     }
     .iconss{
         font-size: 20px;
