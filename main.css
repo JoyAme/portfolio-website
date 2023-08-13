@@ -61,7 +61,7 @@ li{
     color:rgb(201, 54, 78);
     list-style: none;
    font-weight: 400px;
-    font-size: 25px;
+    font-size: 23px;
 }
 ul{
     display: flex;
@@ -72,7 +72,7 @@ ul{
     margin-top: 8rem;
 }
 .description{
-    font-size: 20px;
+    font-size: 18px;
     width:50rem;
 }
 .name{
@@ -178,7 +178,7 @@ height: 350px;
 }
 .journey{
     padding-top: 14rem;
-   padding-bottom: 50px;
+   padding-bottom: 40px;
     text-align: center;
     font-size: 50px;
 }
@@ -222,10 +222,16 @@ height: 350px;
     border-radius: 6px;
     border: 2px solid rgb(201, 54, 78);
 }
+.icony{
+
+}
+.liv{
+    font-size: 12px;
+}
 .lives{
     display: flex;
-    padding: 6px;
-    margin-top: 30px;
+    padding: 4px;
+    margin-top: 20px;
     cursor: pointer;
     margin-left: 20px;
     margin-right: 20px;
@@ -235,7 +241,7 @@ height: 350px;
 .title{
     text-align: right;
     margin-right: 20px;
-    font:20px;
+    font:17px;
 }
 .project{
     background-color: black;
@@ -253,7 +259,7 @@ height: 350px;
     font-size: 18px;
 }
 .icony{
-    font-size:30px;
+    font-size:16px;
     color:black;
 }
 .projs{
@@ -266,13 +272,14 @@ height: 350px;
 .combo1{
     color: black;
     background-color:rgb(201, 54, 78); ;
-    height:300px;
+    /* height:300px; */
+    /* width:23rem; */
     border-radius: 8px;
     
 }
 /* FOURTH */
 .img{
-    width:250px;
+    width:25rem;
     border-radius: 10px;
     margin-bottom: 10px;
     cursor: pointer;
@@ -371,7 +378,7 @@ height: 350px;
         font-size: 30px;
     }
     .description{
-        font-size: 15px;
+        font-size: 12px;
         width:25rem;
     }
     .iconss{
