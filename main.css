@@ -111,7 +111,7 @@ ul{
    
    top:0;
    left:0;
-   border-radius: 8px;
+   /* border-radius: 8px; */
    height: 100%;
    background-color: black;
    width:0;
@@ -148,7 +148,7 @@ ul{
     color: white;
    top:0;
    left:0;
-   border-radius: 8px;
+   /* border-radius: 8px; */
    height: 100%;
    background-color: black;
    width:0;
@@ -318,6 +318,7 @@ height: 350px;
     background-color: rgb(201, 54, 78);
     /* height: 20px; */
     padding: 10px;
+    border: none;
    width:10rem;
    border-radius: 8px;
    /* box-shadow: 5px 5px 10px 3px rgb(201, 54, 78); */
