@@ -98,7 +98,34 @@ ul{
     padding: 14px;
     cursor: pointer;
     font-size: 20px;
+    position: relative;
+    z-index: 1;
 }
+
+.btn a{
+    color:white;
+}
+.btn a::before{
+    content: '';
+    position: absolute;
+   
+   top:0;
+   left:0;
+   border-radius: 8px;
+   height: 100%;
+   background-color: black;
+   width:0;
+    z-index: -1;
+    transition: .5s;
+}
+.btn a:hover{
+    color: rgb(201, 54, 78);
+}
+.btn a:hover::before{
+    width:100%;
+   
+}
+
 .btn-1{
     /* background-color: rgb(201, 54, 78); */
     color: white;
@@ -107,7 +134,32 @@ ul{
     width:11rem;
     border-radius: 8px;
     padding: 14px;
+    background: transparent;
     font-size: 20px;
+    position: relative;
+    z-index: 1;
+}
+.btn-1 a{
+    color:white;
+}
+.btn-1 a::before{
+    content: '';
+    position: absolute;
+    color: white;
+   top:0;
+   left:0;
+   border-radius: 8px;
+   height: 100%;
+   background-color: black;
+   width:0;
+    z-index: -1;
+    transition: .5s;
+}
+.btn-1 a:hover{
+    color: rgb(201, 54, 78);
+}
+.btn-1 a:hover::before{
+    width:100%;
 }
 .links{
     margin-top: 3rem;
@@ -196,6 +248,9 @@ height: 350px;
     font-size: 50px;
     color:orangered
 }
+#java{
+    width:50px;
+}
 #css{
     font-size: 50px;
     color: green;
@@ -226,7 +281,48 @@ height: 350px;
 
 }
 .liv{
-    font-size: 12px;
+    font-size: 14px;
+}
+.livelink{
+    color:black;
+}
+.app-des{
+    text-align: center;
+   
+}
+.linkb{
+    color: white;
+}
+#css1{
+    color: rgb(205, 73, 25);
+    font-size: 25px;
+}
+#css3{
+   width:20px;
+}
+#css2{
+    color: green;
+    font-size: 25px;
+}
+.lang{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+}
+.BTN-LINK{
+    font-size: 16px;
+   
+    /* background-color: black; */
+    background-color: rgb(201, 54, 78);
+    /* height: 20px; */
+    padding: 10px;
+   width:10rem;
+   border-radius: 8px;
+   /* box-shadow: 5px 5px 10px 3px rgb(201, 54, 78); */
+   box-shadow: 5px 5px 10px 3px rgb(8, 8, 8);
+   margin-bottom: 20px;
 }
 .lives{
     display: flex;
@@ -241,7 +337,7 @@ height: 350px;
 .title{
     text-align: right;
     margin-right: 20px;
-    font:17px;
+    font:12px;
 }
 .project{
     background-color: black;
@@ -271,15 +367,17 @@ height: 350px;
 }
 .combo1{
     color: black;
+    /* border: 1px solid rgb(201, 54, 78)  ; */
     background-color:rgb(201, 54, 78); ;
     /* height:300px; */
     /* width:23rem; */
+    /* box-shadow: 3px 3px 8px 3px rgb(201, 54, 78); */
     border-radius: 8px;
     
 }
 /* FOURTH */
 .img{
-    width:25rem;
+    width:22rem;
     border-radius: 10px;
     margin-bottom: 10px;
     cursor: pointer;
@@ -321,8 +419,16 @@ height: 350px;
     margin-bottom: 18px;
 }
 .subbtn{
+    background-color:rgb(201, 54, 78); 
+    color: white;
+    width:53rem;
+    padding: 8px;
+    font-size:20px;
+    border-radius: 8px;
     text-align: center;
-    margin-bottom: 40px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 30px;
 }
 .text{
     width:53rem;
@@ -447,10 +553,28 @@ height: 350px;
     .journey{
         padding-top: 10rem;
     }
+    .lang{
+        margin-top: 10px;
+        gap:10px;
+    }
+    #css1{
+        color: rgb(205, 73, 25);
+        font-size: 17px;
+    }
+    #css3{
+       width:17px;
+    }
+    #css2{
+        color: green;
+        font-size: 17px;
+    }
+    .title{
+      font-size: 2px;
+    }
     .combo1{
         /* padding: 10px; */
         width:140px;
-        height:190px;
+        /* height:190px; */
     }
     .app-des{
         margin-top: 8px;
@@ -495,6 +619,20 @@ height: 350px;
         height:170px;
         color: white;
         font-size: 16px;
+    }
+    .BTN-LINK{
+        width:5rem;
+        padding: 6px;
+        border-radius: 6px;
+        font-size: 8px;
+        box-shadow: 5px 3px 15px 3px rgb(8, 8, 8);
+    }
+    .subbtn{
+       
+        width:20rem;
+        padding: 6px;
+        font-size:12px;
+        
     }
 
 }
