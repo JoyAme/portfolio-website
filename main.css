@@ -216,7 +216,7 @@ ul{
     position: relative;
 }
 .circular{
-    margin-left: 18rem;
+    left: 19rem;
 height: 340px;
     width: 340px;
     border-left-style: none;
@@ -228,7 +228,7 @@ height: 340px;
     margin-bottom: 1rem;
     position: absolute;
     top:0;
-    left:2%;
+    /* left:2%; */
     /* bottom: 2%; */
     /* transform: translate(-50%, -50%) rotate(0); */
     animation: rotate 8s ease-in-out infinite ;
@@ -548,9 +548,9 @@ height: 340px;
        /* background-color: aquamarine; */
         /* text-align: center; */
        
-        margin-left:6.7rem;
-        height: 200px;
-    width: 200px;
+       left:8rem;
+        height: 180px;
+    width: 180px;
     
     }
     .lorem{
