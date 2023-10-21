@@ -544,9 +544,9 @@ height: 340px;
         margin-bottom: 30px;
     }
     .circular{
-       background-color: aquamarine;
+       /* background-color: aquamarine; */
         /* text-align: center; */
-        margin-left:6rem;
+        margin-left:6.7rem;
         height: 190px;
     width: 190px;
     
