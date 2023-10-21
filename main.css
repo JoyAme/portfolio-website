@@ -538,6 +538,7 @@ height: 340px;
     }
     .joyy{
         width: 150px;
+        position: relative;
         margin-top: 1rem;
     }
     .cirr{
@@ -546,9 +547,10 @@ height: 340px;
     .circular{
        /* background-color: aquamarine; */
         /* text-align: center; */
+       
         margin-left:6.7rem;
-        height: 190px;
-    width: 190px;
+        height: 200px;
+    width: 200px;
     
     }
     .lorem{
